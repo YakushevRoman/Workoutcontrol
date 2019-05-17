@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="@string/input_your_name"
+        android:textSize="@dimen/sp_margin"
+        android:layout_margin="@dimen/dp_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/name_user_edittext"
+        android:hint="@string/name_user"
+        android:textSize="@dimen/sp_margin"
+        android:layout_margin="@dimen/dp_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/age_user_edittext"
+        android:hint="@string/user_age"
+        android:textSize="@dimen/sp_margin"
+        android:layout_margin="@dimen/dp_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/weight_user_edittext"
+        android:hint="@string/user_weight"
+        android:textSize="@dimen/sp_margin"
+        android:layout_margin="@dimen/dp_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/date_was_born_user_edittext"
+        android:hint="Введите дату вашего рождения"
+        android:textSize="@dimen/sp_margin"
+        android:layout_margin="@dimen/dp_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/add_user_information_button"
+        android:text="@string/save_data"
+        android:textSize="@dimen/sp_margin"
+        android:layout_margin="@dimen/dp_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
