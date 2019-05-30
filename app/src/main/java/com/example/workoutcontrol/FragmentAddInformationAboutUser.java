@@ -10,13 +10,10 @@ import android.view.ViewGroup;
 
 public class FragmentAddInformationAboutUser extends Fragment {
 
-
-
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_add_information_about_myself, container, false);
-
 
         return view;
     }
